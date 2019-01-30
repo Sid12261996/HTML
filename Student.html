@@ -4,18 +4,37 @@
 <head>
     <meta charset="utf-8" />
     <title>Student</title>
-    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="Resources/CSS/common.css" />
 </head>
+
+    <nav class="nav-bar-horizontal">
+        <img src="Resources/images/logo.png" alt="" id="logo" />
+       
+    </nav>
 <body>
-    <h2>Student</h2>
+        <h1 id = "headr">Student</h1>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="user.html">User</a></li>
-            <li><a href="Project.html">Project</a></li>
-            <li><a href="Student.html">Student</a></li>
+            <li class="nav-bar"><a href="index.html">Home</a></li>
+            <li class="nav-bar"><a href="user.html">User</a></li>
+            <li class="nav-bar"><a href="Project.html">Project</a></li>
+            <li class="nav-bar"><a href="Student.html">Student</a></li>
         </ul>
     </nav>
+    <div id="form-student">
+        <form action="" method="POST">
+            <h1>Student Details</h1>
+        <label for="Name"></label>
+        <input class="form-boxes" type="text" id="name" name="name" placeholder="Your name"/> <br/><br/>       
+        <label for="Email"></label>
+        <input class="form-boxes" type="email" id="Email" name="Email" placeholder=" email id "/> <br/> <br/>
+        <label for="Mobile Number"></label>
+        <input class="form-boxes" type="number" id="MobNo" name="MobNo" placeholder="Mobile Number"/><br/><br/>  
+        <label for="Address"></label>
+        <textarea class="form-boxes" type="text" id="Address" name="Address" placeholder="Address"></textarea><br/> <br/> 
+        <label for="Portfolio">Portfolio</label>
+     </form>
+    </div>
 
 </body>
 

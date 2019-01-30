@@ -1,0 +1,88 @@
+.nav-bar{
+    list-style:none;
+    width:120px;
+    height: 40px;
+    
+    background-color: #d43a3a;
+    border: 1px solid white;
+    padding: 7px 20px 7px 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.nav-bar-horizontal{
+    background-color: #d43a3a;
+    width:100%;
+    height:70px;
+    margin-top:0px; 
+    border-radius: 35px;
+    position:fixed;
+    z-index: -1;
+    
+}
+#headr{
+    text-align: center;
+    padding-bottom:20px;
+    color: aliceblue;
+    font-size:36px;
+     
+
+}
+#logo {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin:0px;
+    border: 3px solid #d43a3a;
+    border-radius:35px;
+}
+nav ul{
+    
+    position:fixed;
+    margin-top: 100px;
+    width:200px;
+}
+#nav-vrt{
+
+
+height: 100%;
+width:100px;
+}
+.form-boxes{
+    width: 400px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    
+    
+}
+#form-student{
+    width:500px;
+    height: 700px;
+    margin-left: 400px;
+    overflow: hidden;
+    top: 50px;
+}
+.nav-bar:hover{
+    background-color:rgb(39, 3, 3);
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+  
+    
+    font-size: 24px;
+    width:120px;
+    height: 50px;
+    
+    
+}
+
+    .nav-bar:active{
+        background-color:rgb(77, 3, 3);
+    }
+    html
+    {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
