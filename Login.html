@@ -23,18 +23,30 @@
                 <tr><th colspan="2"><h1>Login</h1></th></tr>
                 <tr>
                     <td>User Name:</td>
-                    <td><input type="text" placeholder="Enter your Username" /></td>
+                    <td><input type="text" placeholder="Enter your Username" id="name" /></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" class="Error">
+                        <p class="ErrorMsg" id="nameErr"></p>
+                    </td>
                 </tr>
                 <tr>
                     <td>Password:</td>
-                    <td><input type="password" placeholder="Enter your password" /></td>
+                    <td><input type="password" placeholder="Enter your password" id="pwd"/></td>
                 </tr>
                 <tr>
-                    <td class="submit" colspan="2">
-                        <button type="button" id="but-submit" value="Submit" formaction="index.html">Submit</button>
+                    <td colspan="2" class="Error">
+                        <p id="pwdErr" class="ErrorMsg"></p>
                     </td>
                 </tr>
                 
+                <tr>
+                    <td class="submit" colspan="2">
+                        <button type="button" id="but-submit" onclick="validation()" value="Submit" formaction="index.html">Submit</button>
+                    </td>
+                </tr>
+               
                 <tr >
                         <td colspan="2">
                         <div id="Social-icons">
@@ -61,6 +73,12 @@
 
         </form>
     </div>
+    <p id="test">hello</p>
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+<script src="Resources/Script/validation.js" type="text/javascript"></script>
 <foot>made by Sid</foot>
 </html>
